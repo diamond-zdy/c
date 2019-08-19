@@ -1,0 +1,27 @@
+#include <stdio.h>
+#include <stdlib.h>
+int main()
+{
+	int a, b, c, temp;
+	scanf("%d %d %d", &a, &b, &c);
+	if (a < b)
+	{
+		temp = b;
+		b = a;
+		a = temp;
+	}
+	if (a < c)
+	{
+		temp = c;
+		c = a;
+		a = temp;
+	}
+	if (b < c)
+	{
+		temp = c;
+		c = b;
+		b = temp;
+	}
+	printf("三个数字从大到小排列为:%d %d %d", a, b, c);
+	return 0;
+}
