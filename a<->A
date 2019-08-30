@@ -1,0 +1,14 @@
+#include <stdio.h>
+int main()
+{
+	int ch;
+	printf("请输入一个字符\n");
+	while ((ch = getchar()) != EOF)//end of file
+	{
+		if (ch >= 'a'&&ch <= 'z')
+			printf("%c", ch - 32);
+		else if (ch >= 'A'&&ch <= 'Z')
+			printf("%c", ch + 32);
+	}
+	return 0;
+}
