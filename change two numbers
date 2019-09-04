@@ -1,0 +1,19 @@
+使用函数实现两个数的交换。
+#include <stdio.h>
+void change(int i,int j)//创建函数
+{
+	int tmp = 0;
+	tmp = i ;
+	i = j;
+	j = tmp;
+	printf("交换后为 %d %d ", i, j);
+}
+int main()
+{
+	int a = 0;
+	int b = 0;
+	printf("请输入两个数：");
+	scanf("%d%d", &a, &b);
+	change(a,b);
+	return 0;
+}
