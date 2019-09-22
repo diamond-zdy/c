@@ -1,0 +1,10 @@
+﻿生成启动时间为 2019/9/22 19:46:33。
+     1>项目“E:\作业\odd even\odd even\odd even.vcxproj”在节点 2 上(Build 个目标)。
+     1>Link:
+         D:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"E:\作业\odd even\Debug\odd even.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"E:\作业\odd even\Debug\odd even.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"E:\作业\odd even\Debug\odd even.lib" /MACHINE:X86 "Debug\源.obj"
+         odd even.vcxproj -> E:\作业\odd even\Debug\odd even.exe
+     1>已完成生成项目“E:\作业\odd even\odd even\odd even.vcxproj”(Build 个目标)的操作。
+
+生成成功。
+
+已用时间 00:00:01.15
